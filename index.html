@@ -1,428 +1,520 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="author" content="Jose Carmelo Ospino C.">
-  <meta name="descripcion" content="Venta y fabricacion de joyas en oro 18 de  kilates">
-  <meta name="keywords" content="oro, 18 kilates, ventas, fabricacion, joyas ,oro de 18 kilates">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Joyeria Santorini</title>
-   <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
-  <link rel="stylesheet" href="estilos.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Jose Carmelo Ospino C." />
+    <meta
+      name="descripcion"
+      content="Venta y fabricacion de joyas en oro 18 de  kilates"
+    />
+    <meta
+      name="keywords"
+      content="oro, 18 kilates, ventas, fabricacion, joyas ,oro de 18 kilates"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joyeria Santorini</title>
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="estilos.css" />
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
 
-  <!--Iconos de Bootstrap-->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!--Iconos de Bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
 
-  <!--Fuentes de Google-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200&family=Roboto:ital,wght@0,100;0,300;0,500;1,300&family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <!--Fuentes de Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200&family=Roboto:ital,wght@0,100;0,300;0,500;1,300&family=Rubik+Dirt&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img
+              src="img/logoSantorini.png"
+              width="200"
+              alt="logo de Joyeria Santorini"
+            />
+          </a>
 
-</head>
-<body>
-  <nav class="navbar navbar-expand-md navbar-light">
-    <div class="container-fluid">
+          <ul
+            class="navbar-nav d-flex justify-content-center align-items-center"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#inicio"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tienda">Tienda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link aria-disabled=true" href="conocenos"
+                >Cónocenos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link aria-disabled=true" href="#contactanos"
+                >Contáctanos</a
+              >
+            </li>
 
-      
-
-      <div class="collapse navbar-collapse" id="navbar-toggler">
-
-        <a class="navbar-brand" href="#">
-          <img src="img/logoSantorini.png" width="200" alt="logo de Joyeria Santorini">
-        </a>
-
-        <ul class="navbar-nav d-flex justify-content-center align-items-center">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#tienda">Tienda</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link  aria-disabled=true" href="conocenos">Cónocenos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link  aria-disabled=true" href="#contactanos">Contáctanos</a>
-          </li>
-
-          
-          <li class="nav-item">
-            <a class="nav-link  aria-disabled=true" href="#">Blog</a>
-          </li>
-        </ul>
-        
+            <li class="nav-item">
+              <a class="nav-link aria-disabled=true" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link aria-disabled=true" href="#">Historia</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
-  <section id="inicio" class="hero align-items-stretch">
-    <div class=" hero-principal d-flex flex-column justify-content-center align-items-center">
-      <img class="hero-imagen-desarrollador rounded-circle" src="img/img local san adresito santorini.jpg" alt="Foto del local Joyeria Santorini">
+    <section id="inicio" class="hero align-items-stretch">
+      <div
+        class="hero-principal d-flex flex-column justify-content-center align-items-center"
+      >
+        <img
+          class="hero-imagen-desarrollador rounded-circle"
+          src="img/img local san adresito santorini.jpg"
+          alt="Foto del local Joyeria Santorini"
+        />
         <h1 class="">Hola soy Joyeria Santorini</h1>
         <h2>Fabricacion y venta de joyas en oro de 18 kilates</h2>
-      
-    </div>
-    <div class="hero-inferior">
-      <h2>Nuestros Productos</h2>
-      <img class="hero-inferior-imagen img-fluid" src="img/collar doble_n.jpg" alt="collar,Joyeria santorini">
+      </div>
+      <div class="hero-inferior">
+        <h2>Nuestros Productos</h2>
+        <img
+          class="hero-inferior-imagen img-fluid"
+          src="img/collar doble_n.jpg"
+          alt="collar,Joyeria santorini"
+        />
+      </div>
+    </section>
 
-    </div>
+    <!--Section sobre Joyeria santorini-->
+    <section id="tienda" class="sobre-joyeria-santorni section-oscura">
+      <div class="contenedor">
+        <h2 class="section-titulo">Conoce a Joyeria Santorini</h2>
 
-
-  </section>
-
-  <!--Section sobre Joyeria santorini-->
-  <section id="tienda" class=" sobre-joyeria-santorni section-oscura">
-    <div class="contenedor">
-      <h2 class="section-titulo">Conoce a Joyeria Santorini</h2>
-      
-      <p class="section-texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit molestias rem iure dolor sequi aliquam pariatur! Cupiditate repellat ratione laudantium suscipit possimus odio recusandae perspiciatis eum quo sed saepe delectus minima distinctio et corporis corrupti obcaecati dignissimos veritatis consequatur, necessitatibus voluptatem? Ipsum quod ratione corporis sint facilis veritatis quisquam assumenda?
-
-      </p>
-    </div>
-  </section>
+        <p class="section-texto">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Reprehenderit molestias rem iure dolor sequi aliquam pariatur!
+          Cupiditate repellat ratione laudantium suscipit possimus odio
+          recusandae perspiciatis eum quo sed saepe delectus minima distinctio
+          et corporis corrupti obcaecati dignissimos veritatis consequatur,
+          necessitatibus voluptatem? Ipsum quod ratione corporis sint facilis
+          veritatis quisquam assumenda?
+        </p>
+      </div>
+    </section>
 
     <!--section experiencia-->
-  <section id="contactanos" class=" experiencia blog section-clara">
-    <div class=" container text-center">
-      <div class="row">
-        <!--Desarrolo Web-->  
-        <div class=" columna col-12 col-md-4">
-          <i class="bi bi-laptop"></i>
-         <p class="experiencia-titulo"> Historia de nacimiento de Joyeria Santorini</p>
-         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat quidem deleniti vitae maxime. Ipsa consequuntur itaque beatae architecto dignissimos velit!</p>
+    <section id="contactanos" class="experiencia blog section-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!--Desarrolo Web-->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">
+              Historia de nacimiento de Joyeria Santorini
+            </p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+              quidem deleniti vitae maxime. Ipsa consequuntur itaque beatae
+              architecto dignissimos velit!
+            </p>
 
-         <div class="badges-contenedor ">
-          <span class="badge text-bg-primary">HTML</span>
-            
-          <span class="badge text-bg-primary">React</span>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
 
+              <span class="badge text-bg-primary">React</span>
 
-          <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">CSS</span>
 
-          <span class="badge text-bg-primary">Boostrap</span>
-         </div>
+              <span class="badge text-bg-primary">Boostrap</span>
+            </div>
+          </div>
+
+          <!--Articulos-->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p>Historia del oro</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quia
+              ratione corrupti nisi itaque odit asperiores suscipit quam cumque
+              nesciunt!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Non quia ratione corrupti nisi itaque odit asperiores suscipit
+              quam cumque nesciunt!
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Leer</span>
+
+              <span class="badge text-bg-primary">libros</span>
+
+              <span class="badge text-bg-primary">novela</span>
+
+              <span class="badge text-bg-primary">Boostrap</span>
+            </div>
+          </div>
+
+          <!--Estudiantes-->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p>blogs</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quia
+              ratione corrupti nisi itaque odit asperiores suscipit quam cumque
+              nesciunt!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Non quia ratione corrupti nisi itaque odit asperiores suscipit
+              quam cumque nesciunt!
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+
+              <span class="badge text-bg-primary">React</span>
+
+              <span class="badge text-bg-primary">CSS</span>
+
+              <span class="badge text-bg-primary">Boostrap</span>
+            </div>
+          </div>
         </div>
-
-         <!--Articulos-->          
-        <div class=" columna col-12 col-md-4">
-          <i class="bi bi-laptop"></i>
-          <p>Historia del oro</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quia ratione corrupti nisi itaque odit asperiores suscipit quam cumque nesciunt!Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quia ratione corrupti nisi itaque odit asperiores suscipit quam cumque nesciunt!</p>
-          <div class="badges-contenedor ">
-            <span class="badge text-bg-primary">Leer</span>
-              
-            <span class="badge text-bg-primary">libros</span>
-  
-  
-            <span class="badge text-bg-primary">novela</span>
-  
-            <span class="badge text-bg-primary">Boostrap</span>
-           </div>
-        </div>
-
-        <!--Estudiantes-->
-        <div class="columna col-12 col-md-4"> 
-          <i class="bi bi-laptop"></i>
-          <p>blogs</p>         
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quia ratione corrupti nisi itaque odit asperiores suscipit quam cumque nesciunt!Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quia ratione corrupti nisi itaque odit asperiores suscipit quam cumque nesciunt!</p>
-          <div class="badges-contenedor ">
-            <span class="badge text-bg-primary">HTML</span>
-              
-            <span class="badge text-bg-primary">React</span>
-  
-  
-            <span class="badge text-bg-primary">CSS</span>
-  
-            <span class="badge text-bg-primary">Boostrap</span>
-           </div>
-
-        </div>
-
       </div>
+    </section>
 
-    </div>
+    <!--Proyectos-->
+    <section class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="section-titulo texto-negro">Mis Proyectos</h2>
+      <h3 class="section-description">
+        Estos son algunos proyectos creados recientemente
+      </h3>
 
-
-  </section>
-
-  <!--Proyectos-->
-  <section class="proyectos-recientes seccion-clara d-flex flex-column">
-    <h2 class="section-titulo texto-negro">Mis Proyectos</h2>
-    <h3 class="section-description">Estos son algunos proyectos creados recientemente</h3>
-
-    <!--Galeria de proyectos-->
-    <div class="container text-center proyectos-contenedor ">
-      <div class="row">
-        <!--proyecto 1-->
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="proyecto">
-            <img src="img/laptop2.jpg" alt="Proyecto 1">
-            <div class="overlay">
-              <p>Proyecto 1</p>
-              <div class="iconos-contenedor">
-                <a href="https://github.com/" target="_blank" rel="noopener-noreferrer">
-                  <i class="bi bi-github"> </i>
-                  
-                </a>
-                <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener-noreferrer">
-                  <i class="bi bi-laptop"></i>
-  
-                </a>
+      <!--Galeria de proyectos-->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!--proyecto 1-->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="img/laptop2.jpg" alt="Proyecto 1" />
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/"
+                    target="_blank"
+                    rel="noopener-noreferrer"
+                  >
+                    <i class="bi bi-github"> </i>
+                  </a>
+                  <a
+                    href="https://www.freecodecamp.org/espanol/"
+                    target="_blank"
+                    rel="noopener-noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
               </div>
             </div>
-
-
           </div>
-         
-
-        </div>
-<!--proyecto 2-->
-<div class="col-12 col-md-6 col-lg-4">
-  <div class="proyecto">
-    <img src="img/laptop2.jpg" alt="Proyecto 1">
-    <div class="overlay">
-      <p>Proyecto 1</p>
-      <div class="iconos-contenedor">
-        <a href="https://github.com/" target="_blank" rel="noopener-noreferrer">
-          <i class="bi bi-github"> </i>
-          
-        </a>
-        <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener-noreferrer">
-          <i class="bi bi-laptop"></i>
-
-        </a>
-      </div>
-    </div>
-
-
-  </div>
- 
-
-</div>
-
-       <!--proyecto 3-->
-       <div class="col-12 col-md-6 col-lg-4">
-        <div class="proyecto">
-          <img src="img/laptop2.jpg" alt="Proyecto 1">
-          <div class="overlay">
-            <p>Proyecto 1</p>
-            <div class="iconos-contenedor">
-              <a href="https://github.com/" target="_blank" rel="noopener-noreferrer">
-                <i class="bi bi-github"> </i>
-                
-              </a>
-              <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener-noreferrer">
-                <i class="bi bi-laptop"></i>
-
-              </a>
+          <!--proyecto 2-->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="img/laptop2.jpg" alt="Proyecto 1" />
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/"
+                    target="_blank"
+                    rel="noopener-noreferrer"
+                  >
+                    <i class="bi bi-github"> </i>
+                  </a>
+                  <a
+                    href="https://www.freecodecamp.org/espanol/"
+                    target="_blank"
+                    rel="noopener-noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
 
-
-        </div>
-       
-
-      </div>
-
-      <!--proyecto 4-->
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="proyecto">
-          <img src="img/laptop2.jpg" alt="Proyecto 1">
-          <div class="overlay">
-            <p>Proyecto 1</p>
-            <div class="iconos-contenedor">
-              <a href="https://github.com/" target="_blank" rel="noopener-noreferrer">
-                <i class="bi bi-github"> </i>
-                
-              </a>
-              <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener-noreferrer">
-                <i class="bi bi-laptop"></i>
-
-              </a>
+          <!--proyecto 3-->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="img/laptop2.jpg" alt="Proyecto 1" />
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/"
+                    target="_blank"
+                    rel="noopener-noreferrer"
+                  >
+                    <i class="bi bi-github"> </i>
+                  </a>
+                  <a
+                    href="https://www.freecodecamp.org/espanol/"
+                    target="_blank"
+                    rel="noopener-noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
 
-
-        </div>
-       
-
-      </div>
-
-        <!--proyecto 5-->
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="proyecto">
-          <img src="img/laptop2.jpg" alt="Proyecto 1">
-          <div class="overlay">
-            <p>Proyecto 1</p>
-            <div class="iconos-contenedor">
-              <a href="https://github.com/" target="_blank" rel="noopener-noreferrer">
-                <i class="bi bi-github"> </i>
-                
-              </a>
-              <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener-noreferrer">
-                <i class="bi bi-laptop"></i>
-
-              </a>
+          <!--proyecto 4-->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="img/laptop2.jpg" alt="Proyecto 1" />
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/"
+                    target="_blank"
+                    rel="noopener-noreferrer"
+                  >
+                    <i class="bi bi-github"> </i>
+                  </a>
+                  <a
+                    href="https://www.freecodecamp.org/espanol/"
+                    target="_blank"
+                    rel="noopener-noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
 
-
-        </div>
-       
-
-      </div>
-        <!--proyecto 6-->
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="proyecto">
-          <img src="img/laptop2.jpg" alt="Proyecto 1">
-          <div class="overlay">
-            <p>Proyecto 1</p>
-            <div class="iconos-contenedor">
-              <a href="https://github.com/" target="_blank" rel="noopener-noreferrer">
-                <i class="bi bi-github"> </i>
-                
-              </a>
-              <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener-noreferrer">
-                <i class="bi bi-laptop"></i>
-
-              </a>
+          <!--proyecto 5-->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="img/laptop2.jpg" alt="Proyecto 1" />
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/"
+                    target="_blank"
+                    rel="noopener-noreferrer"
+                  >
+                    <i class="bi bi-github"> </i>
+                  </a>
+                  <a
+                    href="https://www.freecodecamp.org/espanol/"
+                    target="_blank"
+                    rel="noopener-noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
-
-
-        </div>
-       
-
-      </div>
-
-
-
-
-
-
-
-      </div>
-    </div>
-    <div>
-
-    </div>
-   
-     
-    <button type="button" class="btn ">
-      
-
-      <a class=" boton" href="https://github.com/" target="_blank" rel="noopener-noreferrer">Ver mas oferta
-
-
-     <i class="bi bi-arrow-right-circle-fill"></i> 
-     </a>
-     
-    </button>
-
-
-  </section>
-
-  <!--Articulos-->
-
-  <section class="articulos justify-content-start">
-    <h2 class="section-titulo texto-negro">Artículos</h2>
-    <div class="card" >
-      <div class="card-header">
-        Articulos mas recientes
-      </div>
-      <ul class="list-group list-group-flush">
-        <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener-noreferrer">
-          <li class="list-group-item">El decorador como utilizarlo y ventajas</li>
-        </a>
-
-        <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener-noreferrer">
-          <li class="list-group-item">El extensor como utilizarlo y ventajas</li>
-        </a>
-
-        <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener-noreferrer">
-          <li class="list-group-item">El asador como utilizarlo y ventajas</li>
-        </a>
-
-        <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener-noreferrer">
-          <li class="list-group-item">El asador como utilizarlo y ventajas</li>
-        </a>
-
-        <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener-noreferrer">
-          <li class="list-group-item">El asador como utilizarlo y ventajas</li>
-        </a>
-
-      </ul>
-    </div>
-    <button type="button" class="btn" >
-      
-
-      <a class=" boton" href="https://github.com/" target="_blank" rel="noopener-noreferrer">Ver mas oferta
-
-
-     <i class="bi bi-arrow-right-circle-fill"></i> 
-     </a>
-     
-    </button>
-
-
-  </section>
-
-  <!--Section testimonio-->
-  <section class="testimonio section section-clara">
-    <h2 class="section-titulo">Testimonios</h2>
-    <h3 cflass="section-description">Estos son testimonios de mis clientes</h3>
-    <!--carrusel-->
-
-    <div id="testimonios-carrusel" class="carousel slide carousel-dark" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="container">
-            <img class="testimonio-imagen rounded-circle" src="/img/laptop.jpg" class="d-block w-100" alt="...">
-
-            <p class="testimonio-texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores impedit ut eaque </p>
-            <div class="testimonio-info">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto rerum voluptatum ab, </p>
-              <p class="cliente">Gino</p>
-              <p class="cargo">Gerente</p>
-
+          <!--proyecto 6-->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="img/laptop2.jpg" alt="Proyecto 1" />
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/"
+                    target="_blank"
+                    rel="noopener-noreferrer"
+                  >
+                    <i class="bi bi-github"> </i>
+                  </a>
+                  <a
+                    href="https://www.freecodecamp.org/espanol/"
+                    target="_blank"
+                    rel="noopener-noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
             </div>
-
           </div>
-          
-        </div>
-        <div class="carousel-item">
-          <img src="img/laptop.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="/img/icono1.png" class="d-block w-100" alt="...">
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Anterior</span>
+      <div></div>
+
+      <button type="button" class="btn">
+        <a
+          class="boton"
+          href="https://github.com/"
+          target="_blank"
+          rel="noopener-noreferrer"
+          >Ver mas oferta
+
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </a>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Siguiente</span>
+    </section>
+
+    <!--Articulos-->
+
+    <section class="articulos justify-content-start">
+      <h2 class="section-titulo texto-negro">Artículos</h2>
+      <div class="card">
+        <div class="card-header">Articulos mas recientes</div>
+        <ul class="list-group list-group-flush">
+          <a
+            href="https://www.freecodecamp.org/espanol/news"
+            target="_blank"
+            rel="noopener-noreferrer"
+          >
+            <li class="list-group-item">
+              El decorador como utilizarlo y ventajas
+            </li>
+          </a>
+
+          <a
+            href="https://www.freecodecamp.org/espanol/news"
+            target="_blank"
+            rel="noopener-noreferrer"
+          >
+            <li class="list-group-item">
+              El extensor como utilizarlo y ventajas
+            </li>
+          </a>
+
+          <a
+            href="https://www.freecodecamp.org/espanol/news"
+            target="_blank"
+            rel="noopener-noreferrer"
+          >
+            <li class="list-group-item">
+              El asador como utilizarlo y ventajas
+            </li>
+          </a>
+
+          <a
+            href="https://www.freecodecamp.org/espanol/news"
+            target="_blank"
+            rel="noopener-noreferrer"
+          >
+            <li class="list-group-item">
+              El asador como utilizarlo y ventajas
+            </li>
+          </a>
+
+          <a
+            href="https://www.freecodecamp.org/espanol/news"
+            target="_blank"
+            rel="noopener-noreferrer"
+          >
+            <li class="list-group-item">
+              El asador como utilizarlo y ventajas
+            </li>
+          </a>
+        </ul>
+      </div>
+      <button type="button" class="btn">
+        <a
+          class="boton"
+          href="https://github.com/"
+          target="_blank"
+          rel="noopener-noreferrer"
+          >Ver mas oferta
+
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </a>
       </button>
-    </div>
+    </section>
 
-   
+    <!--Section testimonio-->
+    <section class="testimonio section section-clara">
+      <h2 class="section-titulo">Testimonios</h2>
+      <h3 cflass="section-description">
+        Estos son testimonios de mis clientes
+      </h3>
+      <!--carrusel-->
 
+      <div
+        id="testimonios-carrusel"
+        class="carousel slide carousel-dark"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img
+                class="testimonio-imagen rounded-circle"
+                src="/img/laptop.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
 
+              <p class="testimonio-texto">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Dolores impedit ut eaque
+              </p>
+              <div class="testimonio-info">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Architecto rerum voluptatum ab,
+                </p>
+                <p class="cliente">Gino</p>
+                <p class="cargo">Gerente</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/laptop.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="/img/icono1.png" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#testimonios-carrusel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#testimonios-carrusel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
 
-  </section>
-
-
-
-
-
-
-  
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
